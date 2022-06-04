@@ -1,0 +1,6 @@
+[submodule "scikit-garden"]
+	path = scikit-garden
+	url = https://github.com/brianandrewburns/scikit-garden
+[submodule "river"]
+	path = river
+	url = https://github.com/brianandrewburns/river
