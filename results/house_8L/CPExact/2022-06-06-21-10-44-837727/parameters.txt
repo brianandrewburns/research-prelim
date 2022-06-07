@@ -1,0 +1,18 @@
+Experiment parameters
+
+All river models
+    - n_models = 10
+    - max_features = "sqrt"
+    - aggregation_method = "mean"
+    - lambda_value = 1
+
+OnlineCP
+    - c_max = 1000
+    - update_threshold = 50 (in case of CPExact)
+
+OnlineQRF
+    - K = 200
+
+Mondrian forests
+    - n_estimators = 10
+    - min_samples_split = 2
