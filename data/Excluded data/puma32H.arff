@@ -8,15 +8,13 @@
 % torques of the robot arm. The family has been specifically generated
 % for the delve environment and so the individual datasets span the
 % corners of a cube whose dimensions represent:
-% 
 % Number of inputs 32 
 % degree of non-linearity (fairly linear or non-linear) 
 % amount of noise in the output (moderate or high). 
-% 
 % Source: collection of regression datasets by Luis Torgo (ltorgo@ncc.up.pt) at
 % http://www.ncc.up.pt/~ltorgo/Regression/DataSets.html
 % Original Source: DELVE repository of data. 
-% Characteristics: 8192 (4500+3692) cases,33 continuous variables. 
+% Characteristics: 8192 (4500+3692) cases,33 continuous variables.
 @relation puma32H
 @attribute theta1  numeric
 @attribute theta2  numeric
